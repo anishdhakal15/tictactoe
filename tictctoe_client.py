@@ -1,7 +1,6 @@
 import socket
-import pickle
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(('127.0.0.1', 6666))
+s.connect(('hostip', port))
 sym=s.recv(2048).decode('utf-8')
 
 
