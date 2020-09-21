@@ -1,7 +1,7 @@
 import socket
 from _thread import *
-host = '127.0.0.1'
-port = 6666
+host = 'yourhost'
+port = #port
 global data2
 data2=''
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
